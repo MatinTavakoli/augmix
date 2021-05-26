@@ -58,7 +58,7 @@ parser.add_argument(
     help='Choose architecture.')
 # Optimization options
 parser.add_argument(
-    '--epochs', '-e', type=int, default=100, help='Number of epochs to train.')
+    '--epochs', '-e', type=int, default=10, help='Number of epochs to train.')
 parser.add_argument(
     '--learning-rate',
     '-lr',
